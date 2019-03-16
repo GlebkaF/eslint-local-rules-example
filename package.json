@@ -1,0 +1,18 @@
+{
+  "name": "eslint-local-rules-template",
+  "version": "1.0.0",
+  "description": "The template shows how to use local custom eslint rules and plugins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "local",
+    "rules",
+    "custom",
+    "rules"
+  ],
+  "author": "Glebka Fokin",
+  "license": "ISC"
+}
