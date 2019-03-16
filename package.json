@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "The template shows how to use local custom eslint rules and plugins",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "eslint",
     "local",
@@ -14,5 +11,11 @@
     "rules"
   ],
   "author": "Glebka Fokin",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.15.2",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-local": "^1.0.0"
+  }
 }
