@@ -6,12 +6,14 @@ import _ from 'lodash';
 const items = [1, 2, 3];
 
 // no-restricted-syntax от airbnb кидает ошибку
-for (const item in items) {
-  moment(item);
+for (const key of items) {
+  moment(key);
 }
 
 // Тут уже местный local/no-restricted-syntax кидает ошибку
-if (Math.random() > 0.5) {}
+if (Math.random() > 0.5) {
+  _.noop();
+}
 
 // Здесь ошибку кидает наш кастомный local/no-null
 _.noop({ a: null });

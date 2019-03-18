@@ -1,8 +1,11 @@
 {
-  "name": "eslint-local-rules-template",
+  "name": "eslint-local-rules-example",
   "version": "1.0.0",
-  "description": "The template shows how to use local custom eslint rules and plugins",
+  "description": "The example shows how to use local custom eslint rules",
   "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js"
+  },
   "keywords": [
     "eslint",
     "local rules",
